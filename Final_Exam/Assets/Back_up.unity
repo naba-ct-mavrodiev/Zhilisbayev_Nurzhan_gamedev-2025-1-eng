@@ -5794,6 +5794,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2124916859}
     m_Modifications:
+    - target: {fileID: 6787355331768193216, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8181245821839484593, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
       propertyPath: m_Name
       value: StoneSmall_004
@@ -5812,7 +5816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8845719574223813643, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -306.8
+      value: -307.5
       objectReference: {fileID: 0}
     - target: {fileID: 8845719574223813643, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5820,7 +5824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8845719574223813643, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -144
+      value: -140.3
       objectReference: {fileID: 0}
     - target: {fileID: 8845719574223813643, guid: 47101ffc410470a46bff41cbe404043f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13705,8 +13709,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: MoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: SprintSpeed
-      value: 10
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_Name
